@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #CCC;
+  height: 500px;
+
+}
+
+#brand {
+  margin-top: 3px;
+}
+
+.navbar {
+  background-color: #FFF;
+  width: 95%;
+  height: 70px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  border: 1px solid green;
+}
+
+nav {
+    font-size: 0.75rem;
+}
+
+.navbar p {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 12px;
+}
+
+nav ul li a {
+  color: #343434;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.icon, .icon-text {
+  vertical-align: middle;
+
+}
+
+.icon-text {
+  margin-left: 5px;
+}
