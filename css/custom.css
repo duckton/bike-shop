@@ -1,0 +1,51 @@
+body {
+  background-color: lightgray;
+}
+
+.navbar {
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 1rem;
+}
+
+.hero {
+  background-image: url('../imgs/generic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Info Block */
+
+.info-bar {
+  width: 90em;
+  display: flex;
+  background-color: #FFF;
+  position: relative;
+  top: -50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.map-bg {
+  background-image: url('../imgs/generic.jpg');
+  background-size: cover;
+}
+
+.signup-input {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #D3D3D3;
+  background-color: #F5F5F5;
+}
+
+.signup-btn {
+  height: 41px;
+  border: 0;
+  padding: 0 30px;
+}
+
+.bg-img {
+  background-image: url('../imgs/generic.jpg');
+  background-size: cover;
+}
