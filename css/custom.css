@@ -8,6 +8,8 @@ body {
   top: 1rem;
 }
 
+/* Hero */
+
 .hero {
   background-image: url('../imgs/generic.jpg');
   background-repeat: no-repeat;
@@ -56,4 +58,14 @@ body {
   background-image: url('../imgs/generic.jpg');
   background-size: 100% 50%;
   background-repeat: no-repeat;
+}
+
+/* Responsive */
+
+/* Responsive Hero */
+
+@media (max-width: 768px) {
+  header div {
+    margin: 40px 0;
+  }
 }
