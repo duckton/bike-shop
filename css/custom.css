@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: #F2F2F2;
 }
 
 .navbar {
@@ -18,20 +18,23 @@ body {
 
 /* Info Block */
 
-.info-bar {
-  width: 90em;
-  display: flex;
-  background-color: #FFF;
+.info-block {
+  width: 90%;
   position: relative;
   top: -50px;
   left: 0;
   right: 0;
   margin: auto;
+  background-color: #FFF;
 }
 
 .map-bg {
   background-image: url('../imgs/generic.jpg');
   background-size: cover;
+}
+
+.float-r {
+  float: right;
 }
 
 .signup-input {
