@@ -38,13 +38,13 @@
           </g>
         </svg>
       </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
       </a>
     </div>
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="nav-links" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item">
           Home
@@ -295,7 +295,7 @@
   <section id="sales" class="section half-bg">
     <div class="container has-text-centered">
       <h2 class="title is-1">Browse Our Inventory</h2>
-      <div class="columns is-mobile">
+      <div class="columns is-mobile is-multiline">
         <div class="column is-half-mobile">
           <div class="card">
             <div class="card-image">
@@ -356,7 +356,7 @@
 
   <footer class="section has-background-primary">
     <div class="container">
-      <div class="columns">
+      <div class="columns is-hidden-mobile">
         <div class="column">
           <h3 class="title is-5">Our Shop</h3>
           <ul class="is-size-6">
@@ -531,21 +531,26 @@
         </div>
 
       </div>
-      <div class="level">
-        <div class="level-left">
-          <div class="level-item"><a href="#">Home</a></div>
-          <div class="level-item"><a href="#">Services</a></div>
-          <div class="level-item"><a href="#">About Us</a></div>
-          <div class="level-item"><a href="#">Events</a></div>
-          <div class="level-item"><a href="#">Contact</a></div>
+      <div class="columns">
+        <div class="column">
+          <div class="level is-mobile">
+            <div class="level-item has-text-centered">
+              <div class="level-item"><a href="#">Home</a></div>
+              <div class="level-item"><a href="#">Services</a></div>
+              <div class="level-item"><a href="#">About Us</a></div>
+              <div class="level-item"><a href="#">Events</a></div>
+              <div class="level-item"><a href="#">Contact</a></div>
+            </div>
+          </div>
         </div>
-        <div class="level-right">
+        <div class="column has-text-centered">
           <p class="is-size-7">Copyright Lorem Ipsum Co. 2022.</p>
         </div>
       </div>
+
     </div>
 
   </footer>
 </body>
-
+<script type="text/javascript" src="js/script.js"></script>
 </html>
