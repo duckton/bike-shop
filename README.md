@@ -1,2 +1,2 @@
 # bike-shop
-Demo: A one page brochure website for a fictional bike repair shop.
+Work demo: A one page brochure website for a fictional bike repair shop.
