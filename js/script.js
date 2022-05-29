@@ -1,9 +1,6 @@
 // Mobile Dropdown Menu
-const burgerIcon = document.querySelector('#burger');
-const navbarMenu = document.querySelector('#nav-links');
-
-burgerIcon.addEventListener('click', () => {
-  navbarMenu.classList.toggle('is-active');
+$("#burger").on("click", function(){
+  $("#hamburger-links").slideToggle();
 })
 
 // Back to top button

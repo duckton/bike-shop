@@ -8,6 +8,10 @@ body {
   top: 1rem;
 }
 
+#hamburger-links {
+  display: none;
+}
+
 /* Hero */
 
 .hero {
