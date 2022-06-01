@@ -1,20 +1,27 @@
 // Mobile Dropdown Menu
-$("#burger").on("click", function(){
+$("#burger").on("click", function() {
   $("#hamburger-links").slideToggle();
 })
 
+$(window).on("resize", function() {
+  $("#hamburger-links").slideUp();
+})
+
 // Back to top button
-const showOnPx = 600;
-const backToTopBtn = document.querySelector(".back-to-top")
 
-const scrollContainer = () => {
-  return document.documentElement || document.body;
-};
-
-document.addEventListener("scroll", () => {
-  if (scrollContainer().scrollTop > showOnPx) {
-    backToTopBtn.classList.remove("is-hidden")
+$(window).on("scroll", function(){
+  // console.log(this.scrollY);
+  if (this.scrollY > 275){
+    $(".back-to-top").removeClass("is-hidden");
   } else {
-    backToTopBtn.classList.add("is-hidden")
+    $(".back-to-top").addClass("is-hidden");
   }
 })
+
+$(".back-to-top").on('click', function(e) {
+  e.preventDefault();
+  $(".back-to-top").addClass("is-hidden");
+  $('html, body').animate({
+    scrollTop: 0
+  }, '300');
+});
