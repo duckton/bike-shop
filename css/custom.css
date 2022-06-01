@@ -23,6 +23,7 @@ footer svg:hover {
 
 .navbar {
   position: absolute;
+  width: 90%;
   width: -webkit-fill-available;
   top: 1rem;
 }
