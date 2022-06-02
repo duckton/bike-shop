@@ -1,26 +1,3 @@
-body {
-  background-color: #F2F2F2;
-}
-
-a {
-  color: #F85E00;
-}
-
-svg {
-  fill: #F85E00;
-}
-
-footer a:hover {
-  color: #FFF;
-}
-
-footer svg:hover {
-  fill: #FFF;
-  transition-property: transform;
-  transition-duration: 0.21s;
-  transform: scale(1.25);
-}
-
 .navbar {
   position: absolute;
   width: 90%;
@@ -33,24 +10,21 @@ footer svg:hover {
 }
 
 /* Hero */
-
 .hero {
   background-image: url('../imgs/heroImg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero p.title {
+.dropshadow {
   filter: drop-shadow(0 0 0.75rem #000);
 }
 
 /* Back to top button */
-
 .back-to-top {
   position: fixed;
   right: 2rem;
   bottom: 2rem;
-  background-color: hsl(0, 0%, 21%);
   width: 40px;
   height: 40px;
   z-index: 1;
@@ -60,11 +34,11 @@ footer svg:hover {
 }
 
 .back-to-top svg {
-    padding-top: 10px;
+  fill: #F85E00;
+  padding-top: 10px;
 }
 
 /* Info Block */
-
 .info-block {
   width: 90%;
   position: relative;
@@ -76,16 +50,12 @@ footer svg:hover {
 }
 
 .move-up {
-    margin-bottom: -50px;
+  margin-bottom: -50px;
 }
 
 .map-bg {
   background-image: url('../imgs/mapBG.jpg');
   background-size: cover;
-}
-
-.float-r {
-  float: right;
 }
 
 .signup-input {
@@ -107,24 +77,27 @@ footer svg:hover {
 }
 
 /* Events Calendar */
-
-
 .table td {
   vertical-align: middle;
 }
 
 /* Sales section */
-
 .half-bg {
   background-image: url('../imgs/halfBG.jpg');
   background-size: 100% 50%;
   background-repeat: no-repeat;
 }
 
+/* Footer */
+footer svg:hover {
+  /* fill: #FFF; */
+  transition-property: transform;
+  transition-duration: 0.21s;
+  transform: scale(1.25);
+}
+
 /* Responsive */
-
 /* Responsive Hero */
-
 @media (max-width: 768px) {
   header div {
     margin: 40px 0;
